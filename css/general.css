@@ -11,3 +11,55 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.h1 {
+    background-color: #E7E5D9;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.masthead {
+    background: url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.wanted {
+    background-image: url(../images/badge.svg);
+    
+}
+    
+body {
+    background-color: #E7E5D9;
+    margin: 0;
+    padding: 0;
+}
+
+.wanted-photo {
+    width: 100%;
+
+}
+
+.panel {
+    border-image: url(../images/panel-border.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+    max-width: 100%
+}
+
+.reward {
+    text-align: center;
+    background-color: #87714F;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 12rem;
+    display: inline-block;
+}
+
+.reward-icon {
+    width: 20%;
+}
+
+.list {
+    text-align: left;
+}
+

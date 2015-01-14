@@ -1,2 +1,1 @@
-# dsn1676-week-1
-Review of grids, type, and other stuff.
+# dsn1676-assignment-1

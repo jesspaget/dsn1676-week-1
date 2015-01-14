@@ -14,18 +14,20 @@ html {
 
 .h1 {
     background-color: #E7E5D9;
-    margin-left: 25%;
-    margin-right: 25%;
+}
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 1em;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .masthead {
     background: url("../images/masthead-bg.png") repeat left center;
     text-align: center;
-}
-
-.wanted {
-    background-image: url(../images/badge.svg);
-    
+    vertical-align: middle;
+    height: 3em;
 }
     
 body {
@@ -39,20 +41,26 @@ body {
 
 }
 
+.content {
+    display: inline-block;
+}
+
 .panel {
     border-image: url(../images/panel-border.png) 20 20 20 20 stretch stretch;
     border-width: 20px 20px 20px 20px;
-    max-width: 100%
+    max-width: 100%;
+    display: inline-block;
 }
 
 .reward {
     text-align: center;
     background-color: #87714F;
     color: white;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 12rem;
-    display: inline-block;
+    background-image: url(../images/hat.svg), url(../images/cuffs.svg);
+    background-position: center top, center bottom 15px;
+    background-repeat: no-repeat;
+    background-size: 70px 70px, 40px 40px;
+    
 }
 
 .reward-icon {
